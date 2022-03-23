@@ -4,18 +4,15 @@ void main(){
   runApp(MaterialApp(
     title: "Frases do Dia",
     home: Container(
-      color: Colors.white,
+      //color: Colors.black,
+      padding: EdgeInsets.all(30),
+      decoration: BoxDecoration(
+        border: Border.all(width: 3, color: Colors.black),
+      ),
       child: Column(
         children: <Widget>[
-          Text(
-            "aisfiausha suh ",
-            style: TextStyle(
-              fontSize: 35,
-              color: Colors.black,
-              fontWeight: FontWeight.w900,
-              letterSpacing: 3,
-              wordSpacing: 5,
-            ),
+          Text("aksbakjsaknskjjs a skdjash dkajhs dkajhk aj hsjhda ksjhka shdajAOFHAI HFIS AISHAI HSFAOISH AOHOIASIH AOI AOSHAO",
+          textAlign: TextAlign.justify,
           ),
         ],
       ),
