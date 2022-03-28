@@ -5,15 +5,21 @@ void main(){
     title: "Frases do Dia",
     home: Container(
       //color: Colors.black,
-      padding: EdgeInsets.all(30),
+      padding: EdgeInsets.fromLTRB(0, 0, 0,0),
+      margin: EdgeInsets.all(30),
       decoration: BoxDecoration(
         border: Border.all(width: 3, color: Colors.black),
       ),
       child: Column(
         children: <Widget>[
-          Text("aksbakjsaknskjjs a skdjash dkajhs dkajhk aj hsjhda ksjhka shdajAOFHAI HFIS AISHAI HSFAOISH AOHOIASIH AOI AOSHAO",
-          textAlign: TextAlign.justify,
+          Text("T1"),
+
+          Text("T2"),
+
+          Padding(padding: EdgeInsets.all(30),
+          child: Text("T2"),
           ),
+          Text("T4"),
         ],
       ),
     ),
